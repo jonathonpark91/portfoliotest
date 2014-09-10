@@ -1,12 +1,4 @@
-/* Base CSS */
-html, body {
-color: #fff;
-font-family: "Roboto", sans-serif;
-height: 100%;
-width: 100%;
-margin: 0;
-padding: 0;
-}
+
 /* Sections */
 section {
 height: 100%;
@@ -19,19 +11,21 @@ text-align: center;
 
 section.finance {
 background: url('../images/finance.jpg') no-repeat center center fixed;
-background-size: cover;
+height: 75%;
 text-align: center;
+color: rgba(100, 100, 100, 1);
 
 }
 
 section.coding {
 background: url('../images/sky.jpg') no-repeat center center fixed;
+height: 75%;
 background-size: cover;
 text-align: center;
 
 }
 
-section.second {
+section.projects {
 background-color: rgba(143, 255, 92, .8);
 
 }
@@ -62,8 +56,25 @@ width: auto;
 }
 /*Put things in middle of the page*/
 .centered {
-  position: fixed;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.centered2 {
+ 
+  text-align: center;
+  vertical-align: bottom;
+
+}
+
+/* Default CSS */
+html, body {
+color: #fff;
+font-family: "Roboto", sans-serif;
+height: 100%;
+width: 100%;
+margin: 0;
+padding: 0;
 }
