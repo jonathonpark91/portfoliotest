@@ -16,6 +16,10 @@ $(document).ready(function() {
 		jump: 0.075
 	});
 
+	$('.third').swctallax({
+		jump: .01
+	});
+
 	$('.last').swctallax({
 		jump: 0.025
 	});

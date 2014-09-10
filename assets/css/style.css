@@ -13,7 +13,8 @@ section.finance {
 background: url('../images/finance.jpg') no-repeat center center fixed;
 height: 75%;
 text-align: center;
-color: rgba(100, 100, 100, 1);
+color: rgba(255, 25, 130, 1);
+
 
 }
 
@@ -22,6 +23,7 @@ background: url('../images/sky.jpg') no-repeat center center fixed;
 height: 75%;
 background-size: cover;
 text-align: center;
+color: rgba(100, 100, 100, 1);
 
 }
 
@@ -29,13 +31,14 @@ section.projects {
 background-color: rgba(143, 255, 92, .8);
 
 }
-section.third {
+section.california {
 background: url('../images/middle.jpg') no-repeat center center fixed;
 background-size: cover;
 }
-section.fourth {
-background: url('../images/bottom.jpg') no-repeat center center fixed;
+section.job {
+background: url('../images/hope.jpg') no-repeat center center fixed;
 background-size: cover;
+color: rgba(45, 45, 255, 1);
 }
 /* Titles */
 section h1 {
