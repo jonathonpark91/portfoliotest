@@ -1,0 +1,46 @@
+/* Base CSS */
+html, body {
+color: #fff;
+font-family: "Roboto", sans-serif;
+height: 100%;
+width: 100%;
+margin: 0;
+padding: 0;
+}
+/* Sections */
+section {
+height: 100%;
+}
+section.first {
+background: url('../images/top.jpg') no-repeat center center fixed;
+background-size: cover;
+}
+section.second {
+background-color: gray;
+height: 500px;
+}
+section.third {
+background: url('../images/middle.jpg') no-repeat center center fixed;
+background-size: cover;
+}
+section.fourth {
+background: url('../images/bottom.jpg') no-repeat center center fixed;
+background-size: cover;
+}
+/* Titles */
+section h1 {
+font-weight: 100;
+font-size: 100px;
+float: none;
+text-align: center;
+display: inline-block;
+vertical-align: middle;
+letter-spacing: 10px
+}
+/* Center the div */
+.center {
+text-align: center;
+vertical-align: middle;
+height: auto;
+width: auto;
+}
