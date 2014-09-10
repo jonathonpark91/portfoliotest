@@ -11,10 +11,26 @@ padding: 0;
 section {
 height: 100%;
 }
-section.first {
+section.me {
 background-color: rgba(92, 247, 255, .8 );
+text-align: center;
 
 }
+
+section.finance {
+background: url('../images/finance.jpg') no-repeat center center fixed;
+background-size: cover;
+text-align: center;
+
+}
+
+section.coding {
+background: url('../images/sky.jpg') no-repeat center center fixed;
+background-size: cover;
+text-align: center;
+
+}
+
 section.second {
 background-color: rgba(143, 255, 92, .8);
 
