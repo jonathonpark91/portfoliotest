@@ -9,6 +9,16 @@ text-align: center;
 
 }
 
+#profpic {
+	width:50%;
+	border: 2px solid white;
+	border-radius: 70%;
+}
+
+#profpicdiv {
+
+}
+
 section.finance {
 background: url('../images/finance.jpg') no-repeat center center fixed;
 height: 75%;
@@ -28,7 +38,7 @@ color: rgba(100, 100, 100, 1);
 }
 
 section.projects {
-background-color: rgba(143, 255, 92, .8);
+background-color: rgba(143, 173, 92, .8);
 
 }
 section.california {
@@ -75,7 +85,7 @@ width: auto;
 /* Default CSS */
 html, body {
 color: #fff;
-font-family: "Roboto", sans-serif;
+font-family: "Josefin Sans", sans-serif;
 height: 100%;
 width: 100%;
 margin: 0;
